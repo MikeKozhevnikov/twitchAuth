@@ -29,9 +29,9 @@ if (!isset($_GET['code'])) {
         <div class="jumbotron">
           <h2 class="display-8">Аутентификация через Twitch API</h2>
           <p class="lead">Простая аутентификация пользователя через аккаунт Twitch.tv по <b>OAuth2</b>, используя <b>clientId</b>, <b>clientSecret</b> и <b>redirectUri</b>. После прохождения аутентификации будут показаны основные параметры вашего аккаунта Twitch.tv</p>
-          <p><a class="btn btn-lg btn-success" href="'. $authorizationUrl.'" role="button">Log in with your Twitch Account</a></p>
+          <p><a class="btn btn-lg btn-success" href="'. $authorizationUrl.'" role="button">Sign in with Twitch</a></p>
         </div>';
-    echo $footer;        
+    echo $footer;
 
     exit;
 
